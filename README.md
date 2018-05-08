@@ -35,3 +35,12 @@ In order to complete this project I had to:
   * I attempted to automate this process with a Python script, but it proved to be pretty difficult, as each artist's wikipedia page had to be checked for a picture of them, and a picture of their art. 
   * I gave up and got help from a friend. We sat down and manually downloaded all of the images.
   * Next, I used pix2pix tools/process.py to normalize all of the images
+
+# Next Steps
+## Web Interface
+* I started making a web interface using Flask for this, which would allow you to upload a picture and turn it into art.
+* Once it's finished, it will work by using Python's *os* module, and the `os.system` function, and the linux commands to operate pix2pix.
+## Automatic Scraper
+* While making a truely automatic scraper would be pretty much impossible, a "helper" program to help scrape could be made using Processing.
+* Using the Wikipedia API and the [List of Painters by name](https://en.wikipedia.org/wiki/List_of_painters_by_name) article, a processing sketch could be made which displays all of the images from pages in the list. You could then manually select the picture of the artist, and the picture of their art for the dataset, and skip the ones which don't have the images you need.
+
